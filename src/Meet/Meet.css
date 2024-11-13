@@ -1,0 +1,141 @@
+.meet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+    background-color: #fdfaf3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.meet-right{
+    display: flex;  
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    margin-left: 35%;
+    
+
+}
+.meet-tilte{
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: transparent;
+
+}
+.meet-desc{
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 50%;
+    text-align: left;
+    margin-left: 220px;
+    background-color: white;
+    margin-top: 50px;
+}
+.meet-modeldiv{
+ 
+    
+border: 1px solid orange;
+width: 250px;
+height: 400px;
+border-radius: 100%/75%;
+position: absolute;
+margin-left: 20%;
+
+}
+.meet-modelimg{
+    width: 250px;
+    height: 400px;
+    border-radius: 100%/75%;
+    position: relative;
+    margin-top: 20px;
+
+    
+}
+.meet-left-sub{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 10px;
+    width: 180px;
+    height: 60px;
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+    margin-left: 190px;
+    margin-top: 260px;
+}
+.sub-leftimg{
+    width: 70px;
+    height:60px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+}
+.sub-right{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+}
+.sub-right,.sub-right2 p{
+  background-color: transparent;
+}
+.dfsedf{
+   background-color: transparent;
+}
+
+.meet-left-sub2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 10px;
+    width: 180px;
+    height: 60px;
+    
+    margin-left: 460px;
+    margin-top: 160px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+}
+.sub-leftimg2{
+    width: 70px;
+    height:60px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+}
+.sub-right2{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+}
+.meet-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+   position: absolute;
+   margin-left: -17%;
+   margin-top: 10px;
+    
+
+}
+
+.meet-imgtitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-right: 18%;
+  
+}
+.meeet-imgsubtitle{
+    margin-right: 20%;
+}
+
+
+
